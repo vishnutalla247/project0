@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page1</title>
+  <style>
+  @media print {.screen-only {display: none;}
+                #print {display: none;} }
+  h1 {text-align: center;}
+  .center{display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%}
+  </style>
+</head>
+<body>
+  <h1>SAITAMA from One punch man!</h1> <br>
+  <img src="one_punch_man_ok.jpg" class="center">
+  <ul class="screen-only">
+    <li><a href="homepage.html">Click hear to go back to Home page</a></li>
+    <li><a href="page2.html">Click here to go to page 2</a></li>
+    <li><a href="page3.html">Click here to go to page 3</a></li>
+    <li><a href="page4.html">Click here to go to page 4</a></li>
+    <li><a href="page5.html">Click here to go to page 5</a></li>
+  </ul>
+  <p id="print">The Page doesn't print the hyperlinks.</p>
+</body>
+</html>
