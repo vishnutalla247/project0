@@ -1,0 +1,7 @@
+$color: blue;
+%inheritance{
+  font-size: 30px;
+  font-family: cursive;
+}
+.grid-item {@extend %inheritance;
+            color: $color;}
